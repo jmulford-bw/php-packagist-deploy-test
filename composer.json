@@ -1,6 +1,0 @@
-{
-    "name": "bandwidth/php-packagist-deploy-test",
-    "description": "Testing packagist configuration",
-    "version": "0.0.2",
-    "type": "library"
-}

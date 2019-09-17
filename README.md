@@ -1,1 +1,0 @@
-# php-packagist-deploy-test
