@@ -1,5 +1,5 @@
 {
-    "name": "bandwidth/bandwidthmessaging",
+    "name": "apimatic/bandwidthmessaging",
     "type": "library",
     "description": "Bandwidth's HTTP Messaging platform",
     "keywords": ["Bandwidth Messaging","API","SDK"],
@@ -22,8 +22,7 @@
         "apimatic/jsonmapper": "~1.3.0"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^2.7",
-        "phpunit/phpunit": "4.8.*"
+        "squizlabs/php_codesniffer": "^2.7"
     },
     "autoload": {
         "psr-4": {

@@ -144,39 +144,6 @@ The singleton instance of the ``` APIController ``` class can be accessed from t
 $client = $client->getClient();
 ```
 
-### <a name="get_message"></a>![Method: ](https://apidocs.io/img/method.png ".APIController.getMessage") getMessage
-
-> getMessage
-
-
-```php
-function getMessage()
-```
-
-#### Example Usage
-
-```php
-
-$client->getMessage();
-
-```
-
-#### Errors
-
-| Error Code | Error Description |
-|------------|-------------------|
-| 400 | 400 request is malformed or invalid |
-| 401 | 401 The specified user does not have access to the account |
-| 403 | 403  The user does not have access to the API |
-| 404 | 404 he call-id is no longer active, or the path is not found |
-| 409 | 409 Error when modifying a call that is unable to be modified |
-| 415 | 415 The content-type of the request is incorrect |
-| 429 | 429 The rate limit has been reached |
-| 500 | 500 Unknown server error |
-| 503 | 503 The service is unavailable for some reason |
-
-
-
 ### <a name="list_media"></a>![Method: ](https://apidocs.io/img/method.png ".APIController.listMedia") listMedia
 
 > listMedia
@@ -302,7 +269,7 @@ function uploadMedia(
 ```php
 $userId = 'userId';
 $mediaId = 'mediaId';
-$contentLength = 188;
+$contentLength = 228;
 $body = 'body';
 $contentType = 'Content-Type';
 $cacheControl = 'Cache-Control';
